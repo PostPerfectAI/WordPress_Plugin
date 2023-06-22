@@ -1569,7 +1569,7 @@ class Post_Perfect_Ai_Admin {
 				break;
 		}
 		$vl = sprintf(_x("View %ss", "Values are `Image`,`Article`, or `Idea`","post-perfect-ai"),ucfirst($type));
-		$message = sprintf(_x("Your new %s(s) are ready!", "Values are `Image`,`Article`, or `Idea`","post-perfect-ai"),$type)." <a href=\"$path\">".$vl."s</a><br>";
+		$message = sprintf(_x("Your new %s(s) are ready!", "Values are `Image`,`Article`, or `Idea`","post-perfect-ai"),$type)." <a href=\"$path\">".$vl."</a><br>";
 		return $message;
 	}
 	public function ppai_heartbeat_received() {
