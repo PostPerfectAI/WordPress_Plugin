@@ -1,0 +1,729 @@
+# Copyright (C) 2023 PostPerfect AI
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: PostPerfect AI 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/post-perfect-ai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-21T00:19:51+00:00\n"
+"PO-Revision-Date: 2023-06-23 00:23-0500\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Domain: post-perfect-ai\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: PostPerfect AI <support@postperfectai.com>\n"
+"Language: es\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "PostPerfect AI"
+msgstr "PostPerfect AI"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://postperfectai.com"
+msgstr "https://postperfectai.com"
+
+#. Description of the plugin
+msgid "A revolutionary WordPress plugin designed to unleash your creativity and streamline content creation like never before. With its powerful integration of cutting-edge AI technologies, PostPerfect AI empowers you to effortlessly generate captivating article ideas, create engaging written content, and design stunning images with just a few clicks. Unlock the potential of AI-generated content that matches the complexity and variation of human writing styles. From brainstorming ideas to crafting compelling articles and eye-catching visuals, PostPerfect AI revolutionizes your content creation process, saving you time and elevating the quality of your website. Take the leap into the future of content creation with PostPerfect AI and experience the transformative power of artificial intelligence in your WordPress environment."
+msgstr "Un revolucionario plugin de WordPress diseñado para liberar tu creatividad y optimizar la creación de contenido como nunca antes. Con su potente integración de tecnologías de IA de vanguardia, PostPerfect AI te permite generar sin esfuerzo ideas de artículos cautivadoras, crear contenido escrito atractivo y diseñar imágenes impresionantes con solo unos pocos clics. Desbloquea el potencial del contenido generado por IA que se asemeja a la complejidad y variación de los estilos de escritura humana. Desde la generación de ideas hasta la creación de artículos convincentes y visuales llamativos, PostPerfect AI revoluciona tu proceso de creación de contenido, ahorrándote tiempo y mejorando la calidad de tu sitio web. Da el salto hacia el futuro de la creación de contenido con PostPerfect AI y experimenta el poder transformador de la inteligencia artificial en tu entorno de WordPress."
+
+#: admin/class-post-perfect-ai-admin.php:263
+msgid "The request could not be completed."
+msgstr "No se pudo completar la solicitud."
+
+#: admin/class-post-perfect-ai-admin.php:306
+#: admin/class-post-perfect-ai-admin.php:313
+#: admin/class-post-perfect-ai-admin.php:349
+#: admin/class-post-perfect-ai-admin.php:432
+#: admin/class-post-perfect-ai-admin.php:437
+#: admin/class-post-perfect-ai-admin.php:1600
+msgid "Generate Ideas"
+msgstr "Generar ideas"
+
+#: admin/class-post-perfect-ai-admin.php:308
+#: admin/class-post-perfect-ai-admin.php:315
+#: admin/class-post-perfect-ai-admin.php:444
+#: admin/class-post-perfect-ai-admin.php:517
+#: admin/class-post-perfect-ai-admin.php:1604
+msgid "Create Articles"
+msgstr "Crear artículos"
+
+#: admin/class-post-perfect-ai-admin.php:310
+#: admin/class-post-perfect-ai-admin.php:317
+#: admin/class-post-perfect-ai-admin.php:524
+#: admin/class-post-perfect-ai-admin.php:668
+#: admin/class-post-perfect-ai-admin.php:1547
+#: admin/class-post-perfect-ai-admin.php:1595
+msgid "Design Images"
+msgstr "Diseñar imágenes"
+
+#: admin/class-post-perfect-ai-admin.php:313
+#: admin/class-post-perfect-ai-admin.php:315
+#: admin/class-post-perfect-ai-admin.php:317
+msgid "CREDITS"
+msgstr "CRÉDITOS"
+
+#: admin/class-post-perfect-ai-admin.php:325
+#: admin/class-post-perfect-ai-admin.php:387
+msgid "View Ideas"
+msgstr "Ver ideas"
+
+#: admin/class-post-perfect-ai-admin.php:328
+#: admin/class-post-perfect-ai-admin.php:472
+msgid "View Articles"
+msgstr "Ver artículos"
+
+#: admin/class-post-perfect-ai-admin.php:331
+#: admin/class-post-perfect-ai-admin.php:574
+msgid "View Images"
+msgstr "Ver imágenes"
+
+#: admin/class-post-perfect-ai-admin.php:361
+msgid "Please register the plugin to generate ideas."
+msgstr "Por favor, registre el complemento para generar ideas."
+
+#: admin/class-post-perfect-ai-admin.php:361
+#: admin/class-post-perfect-ai-admin.php:452
+#: admin/class-post-perfect-ai-admin.php:529
+#: admin/class-post-perfect-ai-admin.php:687
+#: admin/class-post-perfect-ai-admin.php:779
+#: admin/class-post-perfect-ai-admin.php:924
+msgid "Settings"
+msgstr "Configuración"
+
+#: admin/class-post-perfect-ai-admin.php:376
+msgid "You must add at least one form of context, a Topic or Keywords and remember to click the Add button."
+msgstr "Debes agregar al menos una forma de contexto, un Tema o Palabras clave, y recuerda hacer clic en el botón Agregar."
+
+#: admin/class-post-perfect-ai-admin.php:387
+msgid "Your ideas are being generated. Please allow 1-2 minutes for new ideas to become available."
+msgstr "Se están generando tus ideas. Por favor, espera de 1 a 2 minutos para que las nuevas ideas estén disponibles."
+
+#: admin/class-post-perfect-ai-admin.php:390
+msgctxt "Replacement is a URL and can be ignored."
+msgid "The ideas could not be generated, please try again. If you continue to experience problems, use the <a href=/\"%s/\">help</a> section to contact support."
+msgstr "No se pudieron generar las ideas. Por favor, inténtalo de nuevo. Si continúas experimentando problemas, utiliza la sección de <a href=/\"%s/\">ayuda</a> para contactar al soporte."
+
+#: admin/class-post-perfect-ai-admin.php:397
+msgid "The general idea that you want your article to be about, whether it's travel, business, or anything else, the AI adapts to your chosen Topic."
+msgstr "La idea general sobre la que quieres que trate tu artículo, ya sea sobre viajes, negocios o cualquier otro tema, la IA se adapta al Tema que elijas."
+
+#: admin/class-post-perfect-ai-admin.php:400
+msgid "Topic"
+msgstr "Tema"
+
+#: admin/class-post-perfect-ai-admin.php:403
+msgid "These can be brands, places, or concepts you want to incorporate to help the AI generate more tailored ideas just for you. Keywords provide additional context and narrow down the focus of your article."
+msgstr "Estos pueden ser marcas, lugares o conceptos que deseas incorporar para ayudar a la IA a generar ideas más personalizadas solo para ti. Las palabras clave proporcionan un contexto adicional y acotan el enfoque de tu artículo."
+
+#: admin/class-post-perfect-ai-admin.php:406
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: admin/class-post-perfect-ai-admin.php:422
+msgid "Allows you to select the goal you want to achieve with your article. Adding an optimization helps the AI create content aligned with your objectives."
+msgstr "Te permite seleccionar el objetivo que deseas lograr con tu artículo. Agregar una optimización ayuda a la IA a crear contenido alineado con tus objetivos."
+
+#: admin/class-post-perfect-ai-admin.php:425
+msgid "Optimize"
+msgstr "Optimizar"
+
+#: admin/class-post-perfect-ai-admin.php:438
+msgid "Select Context"
+msgstr "Seleccionar contexto"
+
+#: admin/class-post-perfect-ai-admin.php:452
+msgid "Please register the plugin to create articles."
+msgstr "Por favor, registra el complemento para crear artículos."
+
+#: admin/class-post-perfect-ai-admin.php:463
+msgid "Please provide a Title and a Description for your article."
+msgstr "Por favor, proporciona un Título y una Descripción para tu artículo."
+
+#: admin/class-post-perfect-ai-admin.php:472
+msgid "The article is being created. Please allow 1-2 minutes for new articles to become available."
+msgstr "El artículo se está creando. Por favor, espera de 1 a 2 minutos para que los nuevos artículos estén disponibles."
+
+#: admin/class-post-perfect-ai-admin.php:475
+msgctxt "The replacement is a URL and can be ignored."
+msgid "The article could not be created, please try again. If you continue to experience problems, use the <a href=/\"%s/\">help</a> section to contact support."
+msgstr "No se pudo crear el artículo, por favor inténtalo de nuevo. Si continúas experimentando problemas, utiliza la sección de <a href=/\"%s/\">ayuda</a> para contactar al soporte."
+
+#: admin/class-post-perfect-ai-admin.php:491
+msgid "This will be the Title of the article you want the AI to create."
+msgstr "Este será el título del artículo que quieres que la IA cree."
+
+#: admin/class-post-perfect-ai-admin.php:494
+msgid "Article Title"
+msgstr "Título del artículo"
+
+#: admin/class-post-perfect-ai-admin.php:497
+msgid "This is a brief description of what the article will be about. This is also where you can add additional context for the AI, whether it be information about a product that has not been released yet or specific services that your company provides. This allows the AI to create the most accurate content tailored to your specific needs."
+msgstr "Esta es una breve descripción de lo que tratará el artículo. Aquí también puedes agregar un contexto adicional para la IA, ya sea información sobre un producto que aún no se ha lanzado o servicios específicos que tu empresa ofrece. Esto permite que la IA cree contenido más preciso adaptado a tus necesidades específicas."
+
+#: admin/class-post-perfect-ai-admin.php:500
+msgid "Article Description"
+msgstr "Descripción del artículo"
+
+#: admin/class-post-perfect-ai-admin.php:518
+msgid "Basic Details"
+msgstr "Detalles básicos"
+
+#: admin/class-post-perfect-ai-admin.php:529
+msgid "Please register the plugin to design images."
+msgstr "Por favor, registra el complemento para diseñar imágenes."
+
+#: admin/class-post-perfect-ai-admin.php:548
+msgid "You must specify a Subject or Action or Setting to create an enhanced image."
+msgstr "Debes especificar un Sujeto, una Acción o un Escenario para crear una imagen mejorada."
+
+#: admin/class-post-perfect-ai-admin.php:554
+msgid "Please enter text for the image prompt. The prompt cannot be empty."
+msgstr "Por favor, ingresa un texto para la sugerencia de la imagen. La sugerencia no puede estar vacía."
+
+#: admin/class-post-perfect-ai-admin.php:565
+msgid "image is"
+msgid_plural "images are"
+msgstr[0] "la imagen es"
+msgstr[1] "las imágenes son"
+
+#: admin/class-post-perfect-ai-admin.php:566
+msgid "image"
+msgid_plural "images"
+msgstr[0] "imagen"
+msgstr[1] "imágenes"
+
+#: admin/class-post-perfect-ai-admin.php:574
+msgctxt "Values are: image is or images are"
+msgid "Your %s being designed. Please allow 1-2 minutes for new images to become available."
+msgstr "Tu %s se está diseñando. Por favor, espera de 1 a 2 minutos para que las nuevas imágenes estén disponibles."
+
+#: admin/class-post-perfect-ai-admin.php:577
+msgctxt "First replacement values are: image or images, Second replacement is a URL and can be ignored"
+msgid "The %1$s could not be designed, please try again. If you continue to experience problems, use the <a href=\"%2$s\">help</a> section to contact support."
+msgstr "No se pudo diseñar %1$s, por favor inténtalo de nuevo. Si continúas experimentando problemas, utiliza la sección de <a href=\"%2$s\">ayuda</a> para contactar al soporte."
+
+#: admin/class-post-perfect-ai-admin.php:584
+msgid "Design Images by crafting your own prompt to send directly to our image generation AI."
+msgstr "Diseña imágenes creando tu propia sugerencia para enviar directamente a nuestra IA de generación de imágenes."
+
+#: admin/class-post-perfect-ai-admin.php:587
+msgid "Prompt"
+msgstr "Sugerencia"
+
+#: admin/class-post-perfect-ai-admin.php:592
+msgid "Select the style you want your image to be. For life-like images select /\"Photographic/\" or /\"Cinematic/\", for cartoon style images select /\"Anime/\" or /\"Comic Book/\"."
+msgstr "Selecciona el estilo que deseas para tu imagen. Para imágenes realistas, selecciona /\"Fotográfico/\" o /\"Cinematográfico/\"; para imágenes de estilo de dibujos animados, selecciona /\"Anime/\" o /\"Cómic/\"."
+
+#: admin/class-post-perfect-ai-admin.php:595
+msgid "Style"
+msgstr "Estilo"
+
+#: admin/class-post-perfect-ai-admin.php:598
+msgid "This will be the main focus of your image, whether it is an animal, a mountain range, or a stack of pancakes, the AI will produce an image that is centered around your chosen /\"Subject/\"."
+msgstr "Esto será el enfoque principal de tu imagen, ya sea un animal, una cordillera o una pila de panqueques, la IA producirá una imagen que se centre en tu /\"Sujeto/\" elegido."
+
+#: admin/class-post-perfect-ai-admin.php:601
+msgid "Subject"
+msgstr "Sujeto"
+
+#: admin/class-post-perfect-ai-admin.php:604
+msgid "This is what the /\"Subject/\" of your image is currently doing. Things like playing baseball, hiking, or flying a kite are a few examples for what could go in this field."
+msgstr "Esto es lo que está haciendo actualmente el /\"Sujeto/\" de tu imagen. Algunos ejemplos podrían ser jugar béisbol, hacer senderismo o volar una cometa."
+
+#: admin/class-post-perfect-ai-admin.php:607
+msgid "Action"
+msgstr "Acción"
+
+#: admin/class-post-perfect-ai-admin.php:610
+msgid "This is where everything in your image is taking place. For example, the beach, downtown Tokyo, or Mount Everest."
+msgstr "Aquí es donde tiene lugar todo en tu imagen. Por ejemplo, la playa, el centro de Tokio o el monte Everest."
+
+#: admin/class-post-perfect-ai-admin.php:613
+msgid "Setting"
+msgstr "Ambiente"
+
+#: admin/class-post-perfect-ai-admin.php:616
+msgid "This field will determine the lighting for your image. For example, an image with /\"Sunset/\" as the /\"Time of Day/\" will likely produce an image with a warm, orange sky as the sun sets in the background."
+msgstr "Este campo determinará la iluminación de tu imagen. Por ejemplo, una imagen con /\"Atardecer/\" como /\"Hora del día/\" probablemente producirá una imagen con un cielo cálido y anaranjado mientras el sol se pone en el fondo."
+
+#: admin/class-post-perfect-ai-admin.php:619
+msgid "Time of day"
+msgstr "Hora del día"
+
+#: admin/class-post-perfect-ai-admin.php:622
+msgid "If you would like your image to be created in the style of a certain artist or artists, add them here."
+msgstr "Si deseas que tu imagen se cree en el estilo de un determinado artista o artistas, añádelos aquí."
+
+#: admin/class-post-perfect-ai-admin.php:625
+msgid "Artist Style"
+msgstr "Estilo de artista"
+
+#: admin/class-post-perfect-ai-admin.php:628
+msgid "Allows the AI to produce images that appear as if they were taken with a specific brand and model of camera. This setting is only available with /\"Photographic/\" and /\"Cinematic/\" Styles."
+msgstr "Permite que la IA produzca imágenes que parezcan haber sido tomadas con una marca y modelo de cámara específicos. Esta configuración solo está disponible con los estilos /\"Fotográfico/\" y /\"Cinematográfico/\"."
+
+#: admin/class-post-perfect-ai-admin.php:631
+msgid "Camera"
+msgstr "Cámara"
+
+#: admin/class-post-perfect-ai-admin.php:634
+msgid "Allows the AI to produce images that appear as if they were taken with a particular camera lens such as a /\"Wide Angle Lens/\" in order to capture the entirety of an image or /\"Macro Lens/\" to get a close-up shot. This setting is only available with /\"Photographic/\" and /\"Cinematic/\" Styles."
+msgstr "Permite que la IA produzca imágenes que parezcan haber sido tomadas con una lente de cámara específica, como una /\"Lente Gran Angular/\" para capturar la totalidad de una imagen o una /\"Lente Macro/\" para obtener una toma de primer plano. Esta configuración solo está disponible con los estilos /\"Fotográfico/\" y /\"Cinematográfico/\"."
+
+#: admin/class-post-perfect-ai-admin.php:637
+msgid "Camera Lens"
+msgstr "Lente de la cámara"
+
+#: admin/class-post-perfect-ai-admin.php:640
+msgid "The negative prompt should include elements NOT to include in the image."
+msgstr "La frase de exclusión debe incluir elementos que NO se deben incluir en la imagen."
+
+#: admin/class-post-perfect-ai-admin.php:643
+msgid "Negative Prompt"
+msgstr "Frase de exclusión"
+
+#: admin/class-post-perfect-ai-admin.php:648
+msgid "Select between 1-4 image variations for the AI to generate from your prompt."
+msgstr "Selecciona entre 1 y 4 variaciones de imagen para que la IA genere a partir de tu frase."
+
+#: admin/class-post-perfect-ai-admin.php:651
+msgid "Variations"
+msgstr "Variaciones"
+
+#: admin/class-post-perfect-ai-admin.php:655
+msgid "Allow AI to help create your image prompt to generate stunning imagery."
+msgstr "Permite que la IA te ayude a crear la frase para tu imagen y generar imágenes impresionantes."
+
+#: admin/class-post-perfect-ai-admin.php:658
+msgid "Enhance Prompt"
+msgstr "Mejorar la frase"
+
+#: admin/class-post-perfect-ai-admin.php:664
+#: admin/class-post-perfect-ai-admin.php:1540
+#: admin/class-post-perfect-ai-admin.php:1555
+msgid "Design Image"
+msgstr "Diseñar imagen"
+
+#: admin/class-post-perfect-ai-admin.php:669
+msgid "Image Details"
+msgstr "Detalles de la imagen"
+
+#: admin/class-post-perfect-ai-admin.php:682
+#: admin/class-post-perfect-ai-admin.php:767
+msgid "Help"
+msgstr "Ayuda"
+
+#: admin/class-post-perfect-ai-admin.php:687
+msgid "Please register the plugin to enable help."
+msgstr "Registra el plugin para habilitar la ayuda."
+
+#: admin/class-post-perfect-ai-admin.php:693
+msgid "Please select a service type and provide a description of the problem."
+msgstr "Selecciona un tipo de servicio y proporciona una descripción del problema."
+
+#: admin/class-post-perfect-ai-admin.php:715
+#: admin/class-post-perfect-ai-admin.php:757
+msgid "Please login for support."
+msgstr "Inicia sesión para recibir soporte."
+
+#: admin/class-post-perfect-ai-admin.php:717
+msgctxt "Replacement is a URL and can be ignored"
+msgid "There was an error reporting your problem, please try again. If the problem persists, please contact our primary <a href=/\"%s/\" target=/\"_blank/\">support team</a>."
+msgstr "Se produjo un error al informar tu problema, vuelve a intentarlo. Si el problema persiste, ponte en contacto con nuestro <a href=/\"%s/\" target=/\"_blank/\">equipo de soporte principal</a>."
+
+#: admin/class-post-perfect-ai-admin.php:724
+msgid "Select the service you encountered an issue with."
+msgstr "Selecciona el servicio con el que encontraste un problema."
+
+#: admin/class-post-perfect-ai-admin.php:727
+msgid "Service Type"
+msgstr "Tipo de servicio"
+
+#: admin/class-post-perfect-ai-admin.php:730
+msgid "Give a brief description of the problem so our development team can make further improvements to the plugin."
+msgstr "Proporciona una breve descripción del problema para que nuestro equipo de desarrollo pueda realizar mejoras adicionales en el plugin."
+
+#: admin/class-post-perfect-ai-admin.php:733
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/class-post-perfect-ai-admin.php:739
+msgid "Send Data"
+msgstr "Enviar datos"
+
+#: admin/class-post-perfect-ai-admin.php:745
+msgid "Here to Help"
+msgstr "Aquí para ayudar"
+
+#: admin/class-post-perfect-ai-admin.php:746
+msgid "Let us know if you have a problem using the PostPerfect AI Plugin for WordPress."
+msgstr "Avísanos si tienes algún problema al utilizar el complemento PostPerfect AI para WordPress."
+
+#: admin/class-post-perfect-ai-admin.php:751
+msgctxt "Replacements are URL parameters and can be ignored"
+msgid "View the full <a href=/\"%1$s/\" target=/\"%2$s/\">documentation</a>."
+msgstr "Consulta la <a href=/\"%1$s/\" target=/\"%2$s/\">documentación completa</a>."
+
+#: admin/class-post-perfect-ai-admin.php:754
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin/class-post-perfect-ai-admin.php:759
+msgctxt "Replacements are URL parameters and can be ignored"
+msgid "Login to your account to contact the PostPerfect AI <a href=/\"%1$s/\" target=/\"%2$s/\">support team</a>."
+msgstr "Inicia sesión en tu cuenta para contactar al <a href=/\"%1$s/\" target=/\"%2$s/\">equipo de soporte</a> de PostPerfect AI."
+
+#: admin/class-post-perfect-ai-admin.php:762
+msgid "Still Have a Question?"
+msgstr "¿Todavía tienes alguna pregunta?"
+
+#: admin/class-post-perfect-ai-admin.php:767
+msgid "Customer Service"
+msgstr "Servicio al cliente"
+
+#: admin/class-post-perfect-ai-admin.php:770
+msgid "Report a Problem"
+msgstr "Informar un problema"
+
+#: admin/class-post-perfect-ai-admin.php:773
+msgid "Additional Support"
+msgstr "Soporte adicional"
+
+#: admin/class-post-perfect-ai-admin.php:803
+msgid "The settings were updated."
+msgstr "Se actualizaron los ajustes."
+
+#: admin/class-post-perfect-ai-admin.php:825
+msgid "Your plugin has been registered."
+msgstr "Tu complemento ha sido registrado."
+
+#: admin/class-post-perfect-ai-admin.php:827
+msgid "Your plugin could not be registered. Please try again."
+msgstr "No se pudo registrar tu complemento. Inténtalo de nuevo."
+
+#: admin/class-post-perfect-ai-admin.php:862
+msgid "You can obtain your Client ID by acquiring a subscription at PostPerfectAI.com."
+msgstr "Puedes obtener tu ID de cliente adquiriendo una suscripción en PostPerfectAI.com."
+
+#: admin/class-post-perfect-ai-admin.php:868
+msgid "You can obtain your API Key by acquiring a subscription at PostPerfectAI.com REMEMBER: Never share your API key with anyone."
+msgstr "Puedes obtener tu clave API adquiriendo una suscripción en PostPerfectAI.com. RECUERDA: Nunca compartas tu clave API con nadie."
+
+#: admin/class-post-perfect-ai-admin.php:874
+msgid "OpenGraph data is used by social media sites to display information about a post when it is linked on social media. We recommend leaving this option set enabled, unless you have another plugin or theme adding the data."
+msgstr "Los datos de OpenGraph son utilizados por los sitios de redes sociales para mostrar información sobre una publicación cuando se enlaza en las redes sociales. Recomendamos dejar esta opción habilitada, a menos que tengas otro complemento o tema que añada los datos."
+
+#: admin/class-post-perfect-ai-admin.php:877
+msgid "Use"
+msgstr "Utilizar"
+
+#: admin/class-post-perfect-ai-admin.php:880
+msgid "Prevents neglegent entries by adding a pop-up box that allows you to confirm whether you want to submit a form before it has been submitted."
+msgstr "Evita entradas accidentales añadiendo una ventana emergente que te permite confirmar si deseas enviar un formulario antes de que se envíe."
+
+#: admin/class-post-perfect-ai-admin.php:883
+msgid "Always Confirm"
+msgstr "Siempre confirmar"
+
+#: admin/class-post-perfect-ai-admin.php:889
+msgid "Update Settings"
+msgstr "Actualizar ajustes"
+
+#: admin/class-post-perfect-ai-admin.php:893
+msgid "This is the name of the user created by the PostPerfect AI plugin in order to create posts for your website. WARNING: Deleting this user will prevent the plugin from working properly."
+msgstr "Este es el nombre del usuario creado por el complemento PostPerfect AI para crear publicaciones en tu sitio web. ADVERTENCIA: Eliminar este usuario impedirá que el complemento funcione correctamente."
+
+#: admin/class-post-perfect-ai-admin.php:899
+msgid "This is the password that the plugin will use to connect to your website."
+msgstr "Esta es la contraseña que el complemento utilizará para conectarse a tu sitio web."
+
+#: admin/class-post-perfect-ai-admin.php:902
+msgid "Application Password"
+msgstr "Contraseña de la aplicación"
+
+#: admin/class-post-perfect-ai-admin.php:905
+msgid "The home URL of your WordPress website. This is the URL you will provide PostPerfect AI when generating your API key."
+msgstr "La URL principal de tu sitio web de WordPress. Esta es la URL que proporcionarás a PostPerfect AI al generar tu clave de API."
+
+#: admin/class-post-perfect-ai-admin.php:908
+msgid "Site URL"
+msgstr "URL del sitio"
+
+#: admin/class-post-perfect-ai-admin.php:911
+msgid "Will show as /\"Registered/\" once your plugin has been successfully registered. To register your plugin, please provide the API Client ID and API Key distributed by PostPerfect AI and click the /\"Update Settings/\" button, followed by the /\"Register Plugin/\" button."
+msgstr "Mostrará /\"Registrado/\" una vez que tu complemento se haya registrado correctamente. Para registrar tu complemento, proporciona el ID de cliente de API y la clave de API distribuidos por PostPerfect AI y haz clic en el botón /\"Actualizar ajustes/\", seguido del botón /\"Registrar complemento/\"."
+
+#: admin/class-post-perfect-ai-admin.php:914
+msgid "Status"
+msgstr "Estado"
+
+#: admin/class-post-perfect-ai-admin.php:921
+msgid "Register Plugin"
+msgstr "Registrar complemento"
+
+#: admin/class-post-perfect-ai-admin.php:924
+msgid "Basic Settings"
+msgstr "Ajustes básicos"
+
+#: admin/class-post-perfect-ai-admin.php:929
+msgid "Plugin Registration"
+msgstr "Registro del complemento"
+
+#: admin/class-post-perfect-ai-admin.php:1003
+msgid "Add Topic"
+msgstr "Agregar tema"
+
+#: admin/class-post-perfect-ai-admin.php:1004
+msgid "Selected Topics:"
+msgstr "Temas seleccionados:"
+
+#: admin/class-post-perfect-ai-admin.php:1007
+msgid "Enter Keyword or Phrase"
+msgstr "Ingresa una palabra clave o frase"
+
+#: admin/class-post-perfect-ai-admin.php:1008
+msgid "Add Keyword"
+msgstr "Agregar palabra clave"
+
+#: admin/class-post-perfect-ai-admin.php:1009
+msgid "Selected Keywords:"
+msgstr "Palabras clave seleccionadas:"
+
+#: admin/class-post-perfect-ai-admin.php:1012
+msgid "Enter URL"
+msgstr "Ingresa una URL"
+
+#: admin/class-post-perfect-ai-admin.php:1013
+msgid "Add URL"
+msgstr "Agregar URL"
+
+#: admin/class-post-perfect-ai-admin.php:1014
+msgid "Selected URLs:"
+msgstr "URL seleccionadas:"
+
+#: admin/class-post-perfect-ai-admin.php:1017
+msgid "Tell us what happened..."
+msgstr "Cuéntanos qué sucedió..."
+
+#: admin/class-post-perfect-ai-admin.php:1020
+msgid "A detailed description of your desired image..."
+msgstr "Una descripción detallada de la imagen que deseas..."
+
+#: admin/class-post-perfect-ai-admin.php:1023
+msgid "A person, place, or thing..."
+msgstr "Una persona, lugar o cosa..."
+
+#: admin/class-post-perfect-ai-admin.php:1026
+msgid "Doing something..."
+msgstr "Haciendo algo..."
+
+#: admin/class-post-perfect-ai-admin.php:1029
+msgid "In a place..."
+msgstr "En un lugar..."
+
+#: admin/class-post-perfect-ai-admin.php:1032
+msgid "At a specific time..."
+msgstr "En un momento específico..."
+
+#: admin/class-post-perfect-ai-admin.php:1035
+msgid "Things NOT to include..."
+msgstr "Cosas que NO incluir..."
+
+#: admin/class-post-perfect-ai-admin.php:1038
+msgid "Artist name"
+msgstr "Nombre del artista"
+
+#: admin/class-post-perfect-ai-admin.php:1039
+msgid "Add Artist"
+msgstr "Agregar artista"
+
+#: admin/class-post-perfect-ai-admin.php:1040
+msgid "Selected Artists:"
+msgstr "Artistas seleccionados:"
+
+#: admin/class-post-perfect-ai-admin.php:1051
+#: admin/class-post-perfect-ai-admin.php:1055
+#: admin/class-post-perfect-ai-admin.php:1059
+#: admin/class-post-perfect-ai-admin.php:1158
+msgid "None"
+msgstr "Ninguno"
+
+#: admin/class-post-perfect-ai-admin.php:1067
+msgid "Select a type"
+msgstr "Selecciona un tipo"
+
+#: admin/class-post-perfect-ai-admin.php:1068
+msgid "Idea Generation"
+msgstr "Generación de ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1069
+msgid "Article Creation"
+msgstr "Creación de artículos"
+
+#: admin/class-post-perfect-ai-admin.php:1070
+msgid "Image Design"
+msgstr "Diseño de imágenes"
+
+#: admin/class-post-perfect-ai-admin.php:1089
+msgid "No Optimization"
+msgstr "Sin optimización"
+
+#: admin/class-post-perfect-ai-admin.php:1090
+msgid "Social Media Reach"
+msgstr "Alcance en redes sociales"
+
+#: admin/class-post-perfect-ai-admin.php:1091
+msgid "Lead Generation"
+msgstr "Generación de clientes potenciales"
+
+#: admin/class-post-perfect-ai-admin.php:1092
+msgid "Brand Representation"
+msgstr "Representación de la marca"
+
+#: admin/class-post-perfect-ai-admin.php:1093
+msgid "Search Engine Placement"
+msgstr "Posicionamiento en buscadores"
+
+#: admin/class-post-perfect-ai-admin.php:1094
+msgid "Audience Engagement"
+msgstr "Participación de la audiencia"
+
+#: admin/class-post-perfect-ai-admin.php:1205
+msgctxt "Post type general name"
+msgid "PostPerfect AI Ideas"
+msgstr "Ideas de PostPerfect AI"
+
+#: admin/class-post-perfect-ai-admin.php:1206
+msgctxt "Post type singular name"
+msgid "PostPerfect AI Idea"
+msgstr "Idea de PostPerfect AI"
+
+#: admin/class-post-perfect-ai-admin.php:1207
+msgctxt "Admin Menu text"
+msgid "PostPerfect AI Ideas"
+msgstr "Ideas de PostPerfect AI"
+
+#: admin/class-post-perfect-ai-admin.php:1208
+msgctxt "Add New on Toolbar"
+msgid "Idea"
+msgstr "Idea"
+
+#: admin/class-post-perfect-ai-admin.php:1209
+msgid "Add New"
+msgstr "Agregar nueva"
+
+#: admin/class-post-perfect-ai-admin.php:1210
+msgid "Add New Idea"
+msgstr "Agregar nueva idea"
+
+#: admin/class-post-perfect-ai-admin.php:1211
+msgid "New Idea"
+msgstr "Nueva idea"
+
+#: admin/class-post-perfect-ai-admin.php:1212
+msgid "Edit Idea"
+msgstr "Editar idea"
+
+#: admin/class-post-perfect-ai-admin.php:1213
+msgid "View Idea"
+msgstr "Ver idea"
+
+#: admin/class-post-perfect-ai-admin.php:1214
+msgid "All Ideas"
+msgstr "Todas las ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1215
+msgid "Search Ideas"
+msgstr "Buscar ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1216
+msgid "Parent Ideas:"
+msgstr "Ideas principales:"
+
+#: admin/class-post-perfect-ai-admin.php:1217
+msgid "No ideas found."
+msgstr "No se encontraron ideas."
+
+#: admin/class-post-perfect-ai-admin.php:1218
+msgid "No ideas found in Trash."
+msgstr "No se encontraron ideas en la papelera."
+
+#: admin/class-post-perfect-ai-admin.php:1219
+msgctxt "Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Idea Image"
+msgstr "Imagen de la idea"
+
+#: admin/class-post-perfect-ai-admin.php:1220
+msgctxt "Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set idea image"
+msgstr "Establecer imagen de la idea"
+
+#: admin/class-post-perfect-ai-admin.php:1221
+msgctxt "Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove idea image"
+msgstr "Eliminar imagen de la idea"
+
+#: admin/class-post-perfect-ai-admin.php:1222
+msgctxt "Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as idea image"
+msgstr "Usar como imagen de la idea"
+
+#: admin/class-post-perfect-ai-admin.php:1223
+msgctxt "The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4"
+msgid "Idea archives"
+msgstr "Archivo de ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1224
+msgctxt "Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into idea"
+msgstr "Insertar en la idea"
+
+#: admin/class-post-perfect-ai-admin.php:1225
+msgctxt "Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this idea"
+msgstr "Cargado en esta idea"
+
+#: admin/class-post-perfect-ai-admin.php:1226
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter ideas list"
+msgstr "Filtrar lista de ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1227
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Ideas list navigation"
+msgstr "Navegación de lista de ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1228
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Idea list"
+msgstr "Lista de ideas"
+
+#: admin/class-post-perfect-ai-admin.php:1520
+msgid "Create"
+msgstr "Crear"
+
+#: admin/class-post-perfect-ai-admin.php:1536
+msgid "Create Article"
+msgstr "Crear artículo"
+
+#: admin/class-post-perfect-ai-admin.php:1572
+msgctxt "Values are Image,Article, or Idea"
+msgid "View %ss"
+msgstr "Ver %s"
+
+#: admin/class-post-perfect-ai-admin.php:1573
+msgctxt "Values are Image,Article, or Idea"
+msgid "Your new %s(s) are ready!"
+msgstr "¡Tus nuevos %s están listos!"
+
+#: admin/js/post-perfect-ai-admin.js:44
+msgid "Are you sure you want to submit this form?"
+msgstr "¿Estás seguro de que deseas enviar este formulario?"
+
+#: admin/js/post-perfect-ai-admin.js:56
+msgid "Dismiss this notice."
+msgstr "Descartar esta notificación."
