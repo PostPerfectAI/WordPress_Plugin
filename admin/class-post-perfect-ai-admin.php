@@ -573,7 +573,7 @@ class Post_Perfect_Ai_Admin {
 			$this->notice(sprintf(_x("Your %s being designed. Please allow 1-2 minutes for new images to become available.","Values are: `image is` or `images are`","post-perfect-ai"),$i18n_plural_image)." <a href=\"/wp-admin/upload.php\">".__("View Images","post-perfect-ai")."</a>",2);
 		} else {
 			$path = "/wp-admin/admin.php?page=postperfect-ai-help";
-			$this->notice(sprintf(_x('The %1$s could not be design, please try again. If you continue to experience problems, use the <a href=\"%2$s\">help</a> section to contact support.',"First replacement values are: `image` or `images`, Second replacement is a URL and can be ignored","post-perfect-ai"),$i18n_plural_single_image,$path),0);
+			$this->notice(sprintf(_x('The %1$s could not be designed, please try again. If you continue to experience problems, use the <a href=\"%2$s\">help</a> section to contact support.',"First replacement values are: `image` or `images`, Second replacement is a URL and can be ignored","post-perfect-ai"),$i18n_plural_single_image,$path),0);
 		}
 	}
 	public function admin_images_page() {

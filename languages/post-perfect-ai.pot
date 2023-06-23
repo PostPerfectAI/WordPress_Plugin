@@ -201,7 +201,7 @@ msgstr ""
 
 #: admin/class-post-perfect-ai-admin.php:577
 msgctxt "First replacement values are: `image` or `images`, Second replacement is a URL and can be ignored"
-msgid "The %1$s could not be design, please try again. If you continue to experience problems, use the <a href=\\\"%2$s\\\">help</a> section to contact support."
+msgid "The %1$s could not be designed, please try again. If you continue to experience problems, use the <a href=\\\"%2$s\\\">help</a> section to contact support."
 msgstr ""
 
 #: admin/class-post-perfect-ai-admin.php:584
